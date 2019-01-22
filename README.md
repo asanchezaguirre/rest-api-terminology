@@ -59,12 +59,12 @@ Los códigos de estado HTTP son códigos de respuesta estándar dados por los se
 Write what are their meaning.
 
 |Group|Description                                         
-|-----|-----------
-|1XX| | es una respuesta informativa que indica que lasolicitud ue recibida y entendida.Se emite de manera provisional
- 2XX| | la accion fue recibida, entendida y aceptada
-|3XX| |	redirección
- 4XX| |	el cliente causó el error
-|5XX| |	errores del servidor
+|----------------
+|1XX|  es una respuesta informativa que indica que lasolicitud ue recibida y entendida.Se emite de manera provisional
+ 2XX| la accion fue recibida, entendida y aceptada
+|3XX| redirección
+ 4XX| el cliente causó el error
+|5XX| errores del servidor
 
 **8. HTTP Status Codes and Their Related Interpretation**
 
@@ -77,7 +77,7 @@ There are the most common status codes in HTTP responses. Please, fill with the 
  204| no contenido			
 |301| lo movieron permanenteemnte
 |400| mala respuesta
-|401| 
+|401| Unauthorized
 |403| forbiden
 |404| not found
 |405| no reload
