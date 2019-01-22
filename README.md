@@ -106,15 +106,15 @@ To solve this problem, you can apply the REST style to the endpoints, and thanks
 
 |Old Style|REST Style|
 |---------|----------|
-|`/getAllBooks`            |   get/books         
-|`/submitNewBook`          |   post/books        
-|`/updateAuthor`           |   put/authors/:id
-|`/getBooksAuthors`        |   get/books/:id/authors
-|`/getNumberOfBooksOnStock`|   get/books
-|`/addNewImageToBook`      |   post/books/:id/image
-|`/getBooksImages`         |   get/books/:id/image
-|`/addCoverImage`          |   post/books/:id/image
-|`/listBookCovers`         |   get/books/:id
+|`/getAllBooks`            |   GET /books         
+|`/submitNewBook`          |   POST /books        
+|`/updateAuthor`           |   PUT /authors/:id
+|`/getBooksAuthors`        |   GET /books/:id/authors
+|`/getNumberOfBooksOnStock`|   GET /books
+|`/addNewImageToBook`      |   POST /books/:id/cover
+|`/getBooksImages`         |   GET /books/:id/cover
+|`/addCoverImage`          |   POST /books/:id/cover
+|`/listBookCovers`         |   GET /books/:id
 
 
 
@@ -127,7 +127,7 @@ javascript object notation
 Make a `curl` request to _GitHub API_
 
 ```sh
-$ curl https://api.github.com/ --head
+$ curl GET https://api.github.com/
 ```
 CURL ES es un proyecto de software informático que proporciona una biblioteca y una herramienta de línea de comandos para transferir datos mediante varios protocolos. Es la manera de solicitar la data
 
@@ -143,5 +143,5 @@ According to the responded request, answer what does it mean the next parts from
 ###### If response is not showing those parts, ask to google how to print them in console.
 
 ```sh
-# 
+# $ curl GET https://api.github.com/ --head
 ```
