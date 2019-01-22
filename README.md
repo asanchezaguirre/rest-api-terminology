@@ -50,7 +50,7 @@ Los códigos de estado HTTP son códigos de respuesta estándar dados por los se
 
 |Status Code|Description|
 |-----------|-----------
-|404        |  la pàgina no se pudo encontrar en el servidor         
+|404        |  la pàgina no se pudo encontrar en el servidor       
 |200        |  es una respuesta exitosa a la solicitud       
 |500        |  error del servidor de internet         
 
@@ -58,9 +58,9 @@ Los códigos de estado HTTP son códigos de respuesta estándar dados por los se
 
 Write what are their meaning.
 
-|Group|Description|
-|-----|-----------|
-|1XX| | es una respuesta informativa que indica que la solicitud fue recibida y entendida.Se emite de manera provisional
+|Group|Description                                         
+|-----|-----------
+|1XX| | es una respuesta informativa que indica que lasolicitud ue recibida y entendida.Se emite de manera provisional
  2XX| | la accion fue recibida, entendida y aceptada
 |3XX| |	redirección
  4XX| |	el cliente causó el error
@@ -70,18 +70,18 @@ Write what are their meaning.
 
 There are the most common status codes in HTTP responses. Please, fill with the required description.
 
-|Status Code|Meaning|
-|-----------|-------|
-|200| |	respuesta exitosa
-|201| |	creado
- 204| | no contenido			
-|301| | lo movieron permanenteemnte
-|400| | mala respuesta
-|401| |	
-|403| | forbiden
-|404| |	not found
-|405| |	no reload
-|500| | internal server error
+|Status Code|Meaning
+|-----------|-------
+|200| respuesta exitosa
+|201| creado
+ 204| no contenido			
+|301| lo movieron permanenteemnte
+|400| mala respuesta
+|401| 
+|403| forbiden
+|404| not found
+|405| no reload
+|500| internal server error
  
 ###### [To see the full list of HTTP status codes and their meaning, please refer to the RFC of HTTP 1.1](http://tools.ietf.org/html/rfc7231#section-6)
 
