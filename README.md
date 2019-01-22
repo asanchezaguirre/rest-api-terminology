@@ -60,8 +60,7 @@ Write what are their meaning.
 
 |Group|Description|
 |-----|-----------|
-|1XX| | es una respuesta informativa que indica que la solicitud fue 
-|       recibida y entendida.Se emite de manera provisional
+|1XX| | es una respuesta informativa que indica que la solicitud fue recibida y entendida.Se emite de manera provisional
  2XX| | la accion fue recibida, entendida y aceptada
 |3XX| |	redirección
  4XX| |	el cliente causó el error
